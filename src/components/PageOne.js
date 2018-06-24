@@ -12,7 +12,7 @@ const PageOne = () => {
         <React.Fragment>
             <Navbar/>
             <div className="parallax-container">
-                <div className="parallax"><img alt="" src="../images/pic1.jpg"/></div>
+                <div className="parallax"><img alt="" src="./images/pic1.jpg"/></div>
             </div>
         </React.Fragment>
     )
