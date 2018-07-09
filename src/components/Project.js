@@ -1,7 +1,7 @@
 import React from 'react';
 import M from 'materialize-css';
 
-const Project = () => {
+const Project = ({source}) => {
     document.addEventListener('DOMContentLoaded', () => {
         let elems = document.querySelectorAll('.materialboxed');
         let options = {
@@ -20,7 +20,7 @@ const Project = () => {
     return (
         <div className="project">
             <p>Project 1</p>
-            <img className="materialboxed hoverable z-depth-3" src="http://via.placeholder.com/300x300" alt=""/>
+            <img className="materialboxed hoverable z-depth-3 responsive-img" src={source} alt=""/>
         </div>
     )
 }

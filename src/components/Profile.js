@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Profile = () => (
-    <div className="profile">
+    <div className="profile section scrollspy" id="perfil">
         <div className="info">
             <h3>Javier Horacio</h3>
             <p>Pais: Argentina/Chile</p>
@@ -9,7 +9,7 @@ const Profile = () => (
             <p>Ubicación Actual: Madrid, España</p>
             <p>Ministerio: Audiovisual y Artes</p>
         </div>
-        <img src="./images/profile.jpg" alt=""/>
+        <img src="./images/pic3.jpeg" alt=""/>
     </div>
 )
 

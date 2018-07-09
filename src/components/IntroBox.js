@@ -2,7 +2,7 @@ import React from 'react';
 import Portfolio from './Portfolio';
 
 const IntroBox = () => (
-    <div className="intro-box">
+    <div className="intro-box section scrollspy" id="media">
         <div className="intro">
             <h3>Media Ministries</h3>
             <h1>Video editing and design</h1>
